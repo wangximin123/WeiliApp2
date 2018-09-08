@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:paddingHorizontal="10dp">
+        <TextView
+            android:text="分组："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/Spinner_fenzu"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp">
+
+        </Spinner>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginHorizontal="25dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:paddingHorizontal="10dp"
+        android:background="#ffffff">
+        <TextView
+            android:text="名称："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/Spinner_mingcheng"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp">
+
+        </Spinner>
+        <TextView
+            android:layout_gravity="right"
+            android:layout_marginLeft="30dp"
+            android:text="类别："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:layout_gravity="right"
+            android:id="@+id/Spinner_leibie"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp">
+
+        </Spinner>
+
+    </LinearLayout>
+</LinearLayout>

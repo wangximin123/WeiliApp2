@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="nomarl">#a99999</color>
+    <color name="check">#5e5c5c</color>
+    <color name="shishijiankongnormal">#088010</color>
+    <color name="shishijiankongcheck">#0e5b13</color>
+    <color name="ss">#70d6ca</color>
+</resources>
